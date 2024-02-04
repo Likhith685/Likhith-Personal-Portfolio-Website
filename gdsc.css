@@ -1,0 +1,330 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+    background-image: url(rainbow.webp);
+    background-size: cover;
+}
+.iit 
+{
+    text-decoration: underline;
+}
+.branch
+{
+    text-decoration: underline;
+}
+.header-navigation { 
+	display: flex; 
+	align-items: center; 
+	justify-content: space-between; 
+	position: fixed; 
+	top: 0; 
+	width: 100%; 
+    background-image: url(rainbow.webp);
+    /* background-color: rgb(189, 228, 235); */
+	/* background-color: transparent;  */
+    border-bottom: 2px solid black;
+} 
+.menu{
+    padding: 0.5rem;
+}
+.name .name-heading
+{
+    color: black;  
+    letter-spacing: 1px;
+
+    font-size: xx-large;
+    padding: 0.5rem 2rem;
+}
+a
+{
+    color:black;
+}
+.menu .menu-1
+{
+    display: flex;
+    list-style: none;
+}
+.menu-1 .menu-2
+{
+    padding: 0.5rem 2.5rem;
+}
+.menu-1 .menu-2 a
+{
+    background: linear-gradient(180deg,transparent,#e660c4,transparent);
+}
+a
+{
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: x-large;
+}
+.home
+{
+	background-size: 100% 100%; 
+	width: 100%; 
+	height: 100vh; 
+	display: flex;
+	align-items: center; 
+	justify-content: center; 
+	margin: 10rem 0; 
+}
+.home .myphoto img
+{
+    width:300px;
+    height: 300px;
+    border-radius: 50%;
+    float: right;   
+    margin-left: 100px;
+    border: 8px solid rgb(146, 162, 181);
+}
+.home .myself
+{
+	background-color: transparent; 
+    background-image: url(img.webp);
+    padding: 30px;
+    width: 50%;
+    text-align: center;
+    margin-right: 20px;
+    border-radius: 20px;
+    background-size: cover;
+}
+.myself .greeting
+{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: x-large;
+}
+.myself .name
+{
+    font-size: xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+}
+.myself .profession
+{
+    font-weight:bolder;
+    font-style: italic;
+}
+.About-me{ 
+	display: flex; 
+    background-repeat: no-repeat;
+	/* align-items: center;  */
+	justify-content: center;
+	width: 100%; 
+    height: 110vh;
+    flex-direction: column;
+} 
+.About-me .abouttext2 { 
+	width: 90%; 
+	color: black; 
+	padding: 1rem 2rem 5rem 3rem;
+    font-size: large;
+} 
+.About-me .abouttext2 .bio
+{
+    background-color: #d494c5;
+    width: fit-content;
+    padding:20px;
+    border-radius: 15px;
+    font-weight: 600;
+}
+li a:hover
+{
+   padding: 20px;
+   border-radius: 2px;
+}
+.portfolio { 
+	margin: 5rem 0; 
+	padding: 0 5rem;
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+} 
+
+.box { 
+	padding: 0 !important; 
+	background: none !important; 
+	border: 2px solid #000; 
+    border-top-right-radius: 20px; 
+	border-top-left-radius: 20px; 
+} 
+
+.box .image { 
+	width: 350px; 
+} 
+
+.box .image img { 
+	height: 200px; 
+	width: 100%; 
+	border-top-right-radius: 20px; 
+	border-top-left-radius: 20px; 
+    border-bottom: 2px solid black;
+} 
+.portfolio-content .row
+{
+    display: flex;
+    justify-content: space-between ;
+}
+.portfolio .portfolio-name
+{
+    text-align: center;
+    text-decoration:1.5px underline;
+    font-size: x-large;
+    background: linear-gradient(90deg,transparent,#cf77b9,transparent);
+}
+.col .box
+{
+    text-align: center;
+    margin-top: 50px;
+}
+.box .heading
+{
+    font-size: x-large;
+    text-decoration: 1.5px underline;
+}
+.box .para
+{
+    font-size: xx-large;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 2px;
+    letter-spacing: 2px;
+}
+.About-me .abouttext1 
+{
+    font-size: x-large;
+    text-decoration:  1.5px underline;
+    text-align: center;
+    background: linear-gradient(90deg,transparent,#b365a3,transparent);
+}
+
+input[type="text"]
+{
+    width:20%;
+    padding:12px;
+    border: 0.5px solid black;
+    border-radius: 5px;
+    margin:15px;
+    background-color: whitesmoke;
+}
+input[type="email"],
+input[type="number"],
+select,
+textarea{
+    width:45.35%;
+    padding:12px;
+    border: 0.5px solid black;
+    border-radius: 5px;
+    margin:15px;
+    background-color: whitesmoke;
+}
+input[type="submit"]
+{
+    background-color: #d96dcc;
+    border: 0.5px solid black;
+    color:#000;
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-size: larger;
+    cursor: pointer;
+    width: 80%;
+    margin: 15px;
+}
+input[type="submit"]:hover
+{
+    background-color:white;
+}
+.contactform .head
+{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 700;
+    text-decoration: underline;
+}
+.contactform .headdown
+{
+    text-align: center;
+    font-size: x-large;
+    font-weight: 400;
+    font-style: italic;
+}
+.contactform .headbottom
+{
+    text-align: center;
+    font-size: medium;
+    font-weight: lighter;
+    font-style: italic;
+}
+.contact
+{
+    height:100vh;
+    margin: 5rem 0; 
+	padding: 0 5rem;
+}
+.contact .contactform h1
+{
+    background: linear-gradient(90deg,transparent,#eb68cc,transparent);
+    padding: 25px;
+}
+.abouttext2 .bio
+{
+    line-height: 30px;
+    font-weight: 700;
+}
+.aboutskills .skillcontent
+{
+    font-weight: 600;
+    font-style: italic;
+}
+.aboutskills .skillheading
+{
+    text-decoration: underline;
+}
+.aboutskills .skillcontent1
+{
+    font-weight: 600;
+}
+.footer { 
+    background-color: #dd7ed3; 
+    color: #242020; 
+    padding: 2rem; 
+} 
+  
+.footer-list-items { 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    height: 50px; 
+    width: 50px; 
+    margin: 1rem 1rem 0 1rem; 
+    border-radius: 50%; 
+    background-color: #f12fc3; 
+} 
+  
+.footer-links { 
+    font-size: 24px; 
+    color: #0e0c0c; 
+    text-decoration: none; 
+} 
+  
+.social-links { 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+} 
+  
+.footer-menu { 
+    padding: 0 5rem; 
+} 
+  
+.footer-menu .footer-menu-list { 
+    display: flex; 
+    list-style: none; 
+} 
+
+  
+
+
+
