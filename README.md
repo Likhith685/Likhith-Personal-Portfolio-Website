@@ -1,5 +1,6 @@
 # Personal-Portfolio-Website
 🔖 About
+-----------
 Personal website with my technology portfolio. Made purely with HTML, CSS and Javascript .
 
 No Responsiveness .
