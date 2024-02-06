@@ -17,6 +17,6 @@ Instructions
 --------------
 For Running the Project :
 
-1.Import All Files to your VS Code
+1.  Import All Files to your VS Code
 
 2 . Open the welcome.html file and run it in the live server extension in the VS code
