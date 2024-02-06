@@ -5,6 +5,7 @@ Personal website with my technology portfolio. Made purely with HTML, CSS and Ja
 No Responsiveness .
 
 🚀 Technologies and Tools
+----------------------------
 HTML
 
 CSS
