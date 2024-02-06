@@ -14,6 +14,7 @@ CSS
 JavaScript
 
 Instructions
+--------------
 For Running the Project :
 
 1 . Open the welcome.html file and run it in the live server extension in the VS code
