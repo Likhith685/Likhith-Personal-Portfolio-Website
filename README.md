@@ -13,10 +13,6 @@ CSS
 
 JavaScript
 
-Instructions
---------------
-For Running the Project :
+---> OPEN THE LINK TO VIEW THE PROJECT
+-------------------------------------------
 
-1.  Import All Files to your VS Code
-
-2 . Open the welcome.html file and run it in the live server extension in the VS code
